@@ -1,0 +1,28 @@
+C:\Users\Ирина\Desktop\C#\wpf 4.0\bin\Debug\wpf 4.0.exe.config
+C:\Users\Ирина\Desktop\C#\wpf 4.0\bin\Debug\wpf 4.0.exe
+C:\Users\Ирина\Desktop\C#\wpf 4.0\bin\Debug\wpf 4.0.pdb
+C:\Users\Ирина\Desktop\C#\wpf 4.0\obj\Debug\wpf 4.0.csprojAssemblyReference.cache
+C:\Users\Ирина\Desktop\C#\wpf 4.0\obj\Debug\MainWindow.g.cs
+C:\Users\Ирина\Desktop\C#\wpf 4.0\obj\Debug\App.g.cs
+C:\Users\Ирина\Desktop\C#\wpf 4.0\obj\Debug\wpf 4.0_MarkupCompile.cache
+C:\Users\Ирина\Desktop\C#\wpf 4.0\obj\Debug\wpf 4.0_MarkupCompile.lref
+C:\Users\Ирина\Desktop\C#\wpf 4.0\obj\Debug\MainWindow.baml
+C:\Users\Ирина\Desktop\C#\wpf 4.0\obj\Debug\wpf 4.0.g.resources
+C:\Users\Ирина\Desktop\C#\wpf 4.0\obj\Debug\wpf_4._0.Properties.Resources.resources
+C:\Users\Ирина\Desktop\C#\wpf 4.0\obj\Debug\wpf 4.0.csproj.GenerateResource.cache
+C:\Users\Ирина\Desktop\C#\wpf 4.0\obj\Debug\wpf 4.0.exe
+C:\Users\Ирина\Desktop\C#\wpf 4.0\obj\Debug\wpf 4.0.pdb
+C:\Users\Ирина\Desktop\Пожалуйста, не сломайся\wpf 4.0\bin\Debug\wpf 4.0.exe.config
+C:\Users\Ирина\Desktop\Пожалуйста, не сломайся\wpf 4.0\bin\Debug\wpf 4.0.exe
+C:\Users\Ирина\Desktop\Пожалуйста, не сломайся\wpf 4.0\bin\Debug\wpf 4.0.pdb
+C:\Users\Ирина\Desktop\Пожалуйста, не сломайся\wpf 4.0\obj\Debug\wpf 4.0.csprojAssemblyReference.cache
+C:\Users\Ирина\Desktop\Пожалуйста, не сломайся\wpf 4.0\obj\Debug\MainWindow.g.cs
+C:\Users\Ирина\Desktop\Пожалуйста, не сломайся\wpf 4.0\obj\Debug\App.g.cs
+C:\Users\Ирина\Desktop\Пожалуйста, не сломайся\wpf 4.0\obj\Debug\wpf 4.0_MarkupCompile.cache
+C:\Users\Ирина\Desktop\Пожалуйста, не сломайся\wpf 4.0\obj\Debug\wpf 4.0_MarkupCompile.lref
+C:\Users\Ирина\Desktop\Пожалуйста, не сломайся\wpf 4.0\obj\Debug\MainWindow.baml
+C:\Users\Ирина\Desktop\Пожалуйста, не сломайся\wpf 4.0\obj\Debug\wpf 4.0.g.resources
+C:\Users\Ирина\Desktop\Пожалуйста, не сломайся\wpf 4.0\obj\Debug\wpf_4._0.Properties.Resources.resources
+C:\Users\Ирина\Desktop\Пожалуйста, не сломайся\wpf 4.0\obj\Debug\wpf 4.0.csproj.GenerateResource.cache
+C:\Users\Ирина\Desktop\Пожалуйста, не сломайся\wpf 4.0\obj\Debug\wpf 4.0.exe
+C:\Users\Ирина\Desktop\Пожалуйста, не сломайся\wpf 4.0\obj\Debug\wpf 4.0.pdb
