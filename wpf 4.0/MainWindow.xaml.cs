@@ -33,6 +33,50 @@ namespace wpf_4._0
 
         private bool download = true;
 
+        //private void BitImage_DownloadProgress(object sender, DownloadProgressEventArgs e)
+        //{
+        //    if (download)
+        //    {
+        //        s1 = e.Progress;
+        //        if (count > 0)
+        //        {
+        //            ImageProgressBar.Value = (s1 + s2 + s3) / count;
+        //        }
+        //    }
+        //    else
+        //    {
+        //        ImageProgressBar.Value = 0;
+        //        s1 = 0;
+        //        count = 0;
+        //    }
+
+        //}
+
+
+        private void ButtonStart1_Click(object sender, RoutedEventArgs e)
+        {
+            if (TextBox1.Text != "" && TextBox1.Text != "введите URL" && s1 == 0)
+            {
+                try
+                {
+                    count = count + 1;
+                    download = true;
+                    bi1 = new BitmapImage();
+                    bi1.BeginInit();
+                    bi1.CacheOption = BitmapCacheOption.OnLoad;
+                    bi1.CreateOptions = BitmapCreateOptions.IgnoreImageCache;
+                    bi1.DownloadProgress += BitImage_DownloadProgress;
+                    bi1.UriSource = new Uri(TextBox1.Text);
+                    bi1.EndInit();
+                    Image1.Source = bi1;
+                }
+                catch
+                {
+                    TextBox1.Text = ":(";
+                }
+            }
+        }
+
         private void BitImage_DownloadProgress(object sender, DownloadProgressEventArgs e)
         {
             if (download)
@@ -43,31 +87,7 @@ namespace wpf_4._0
             {
                 ImageProgressBar.Value = 0;
             }
-           
-        }
-              
 
-        private void ButtonStart1_Click(object sender, RoutedEventArgs e)
-        {
-            if (TextBox1.Text != "" && TextBox1.Text != "введите URL")
-            {
-                try
-                {
-                    download = true;
-                    bi1 = new BitmapImage();
-                    bi1.CacheOption = BitmapCacheOption.OnDemand;
-                    bi1.CreateOptions = BitmapCreateOptions.IgnoreImageCache;
-                    bi1.DownloadProgress += BitImage_DownloadProgress;
-                    bi1.BeginInit();
-                    bi1.UriSource = new Uri(TextBox1.Text);
-                    bi1.EndInit();
-                    Image1.Source = bi1;
-                }
-                catch
-                {
-                    TextBox1.Text = ":(";
-                }
-            }
         }
 
         private void ButtonStop1_Click(object sender, RoutedEventArgs e)
@@ -84,12 +104,13 @@ namespace wpf_4._0
             {
                 try
                 {
+                    count = count + 1;
                     download = true;
                     bi2 = new BitmapImage();
-                    bi2.CacheOption = BitmapCacheOption.OnDemand;
+                    bi2.BeginInit();
+                    bi2.CacheOption = BitmapCacheOption.OnLoad;
                     bi2.CreateOptions = BitmapCreateOptions.IgnoreImageCache;
                     bi2.DownloadProgress += BitImage_DownloadProgress;
-                    bi2.BeginInit();
                     bi2.UriSource = new Uri(TextBox2.Text);
                     bi2.EndInit();
                     Image2.Source = bi2;
@@ -116,12 +137,13 @@ namespace wpf_4._0
             {
                 try
                 {
+                    count = count + 1;
                     download = true;
                     bi3 = new BitmapImage();
-                    bi3.CacheOption = BitmapCacheOption.OnDemand;
+                    bi3.BeginInit();
+                    bi3.CacheOption = BitmapCacheOption.OnLoad;
                     bi3.CreateOptions = BitmapCreateOptions.IgnoreImageCache;
                     bi3.DownloadProgress += BitImage_DownloadProgress;
-                    bi3.BeginInit();
                     bi3.UriSource = new Uri(TextBox3.Text);
                     bi3.EndInit();
                     Image3.Source = bi3;
